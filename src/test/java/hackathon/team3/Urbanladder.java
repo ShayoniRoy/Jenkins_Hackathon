@@ -10,6 +10,7 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Action;
@@ -70,9 +71,12 @@ public class Urbanladder {
 			//Check if parameter passed as 'chrome'
 			else if(browser.equalsIgnoreCase("chrome")){
 				//set path to chromedriver.exe
+				ChromeOptions chromeOptions= new ChromeOptions();
+				chromeOptions.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+				
 				System.setProperty(pb.chrome_Driver(),System.getProperty("user.dir")+"//Drivers//chromedriver.exe" );
 				//create chrome instance
-				driver = new ChromeDriver();
+				 driver = new ChromeDriver(chromeOptions);
 				//display the appropriate functioning 
 				 logger.info("Google Chrome is opened");
 			}
