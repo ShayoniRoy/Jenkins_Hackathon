@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="hackathon.team3.Collection_gift">
+        <methods>
+          <include name="closePopUp"/>
+          <include name="operationstock"/>
+          <include name="operationCategory"/>
+          <include name="operationStorage"/>
+          <include name="setupDriver"/>
+          <include name="fill_GiftsCards"/>
+          <include name="operationSearch"/>
+          <include name="operationPrice"/>
+          <include name="printBookShelves"/>
+          <include name="openBrowser"/>
+          <include name="printCollections"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- hackathon.team3.Collection_gift -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

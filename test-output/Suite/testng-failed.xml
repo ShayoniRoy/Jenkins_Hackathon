@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="hackathon.team3.Collection_gift">
+        <methods>
+          <include name="closePopUp"/>
+          <include name="operationstock"/>
+          <include name="operationCategory"/>
+          <include name="setupDriver"/>
+          <include name="fill_GiftsCards"/>
+          <include name="printBookShelves"/>
+          <include name="select_GiftsCards"/>
+          <include name="operationStorage"/>
+          <include name="operationSearch"/>
+          <include name="operationPrice"/>
+          <include name="openBrowser"/>
+          <include name="printCollections"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- hackathon.team3.Collection_gift -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-27T19:06:12 IST" name="Suite" finished-at="2020-05-27T19:07:12 IST" duration-ms="59222">
+    <groups>
+    </groups>
+    <test started-at="2020-05-27T19:06:12 IST" name="chromeTest" finished-at="2020-05-27T19:07:12 IST" duration-ms="59222">
+      <class name="hackathon.team3.Collection_gift">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:12 IST" name="setupDriver" finished-at="2020-05-27T19:06:18 IST" duration-ms="5962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:18 IST" name="openBrowser" finished-at="2020-05-27T19:06:36 IST" duration-ms="17505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="operationSearch()[pri:0, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:36 IST" name="operationSearch" finished-at="2020-05-27T19:06:40 IST" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearch -->
+        <test-method signature="operationCategory()[pri:1, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:40 IST" name="operationCategory" finished-at="2020-05-27T19:06:42 IST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategory -->
+        <test-method signature="operationPrice()[pri:2, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:42 IST" name="operationPrice" finished-at="2020-05-27T19:06:45 IST" duration-ms="2982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPrice -->
+        <test-method signature="operationStorage()[pri:3, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:45 IST" name="operationStorage" finished-at="2020-05-27T19:06:48 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorage -->
+        <test-method signature="operationstock()[pri:4, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:48 IST" name="operationstock" finished-at="2020-05-27T19:06:48 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationstock -->
+        <test-method signature="closePopUp()[pri:5, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:48 IST" name="closePopUp" finished-at="2020-05-27T19:06:50 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method signature="printBookShelves()[pri:6, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:50 IST" name="printBookShelves" finished-at="2020-05-27T19:06:55 IST" duration-ms="4722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBookShelves -->
+        <test-method signature="printCollections()[pri:7, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:06:55 IST" name="printCollections" finished-at="2020-05-27T19:07:01 IST" duration-ms="5710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCollections -->
+        <test-method signature="select_GiftsCards()[pri:8, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:07:01 IST" name="select_GiftsCards" finished-at="2020-05-27T19:07:06 IST" duration-ms="5121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_GiftsCards -->
+        <test-method signature="fill_GiftsCards()[pri:9, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:07:06 IST" name="fill_GiftsCards" finished-at="2020-05-27T19:07:11 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_GiftsCards -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:hackathon.team3.Collection_gift@75459c75]" started-at="2020-05-27T19:07:11 IST" name="closeBrowser" finished-at="2020-05-27T19:07:12 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hackathon.team3.Collection_gift -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
